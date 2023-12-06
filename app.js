@@ -92,8 +92,6 @@ function renderProjects() {
   // Push last row items to the left using empty elements
   const lastRowEmptySpace =
     projects.length % 4 === 0 ? 0 : 4 - (projects.length % 4);
-  console.log(lastRowEmptySpace);
-  if (!projects.length % 4) return;
   if (lastRowEmptySpace) {
     for (let i = 0; i < lastRowEmptySpace; i++) {
       const emptyElement = document.createElement("i");
