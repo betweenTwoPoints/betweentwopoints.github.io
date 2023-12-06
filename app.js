@@ -5,49 +5,53 @@ const projects = [
     description: "An animated navigation menu using CSS and Javascript.",
   },
   {
-    name: "animated-template",
+    name: "Animated Template",
     location: "animated-template",
-    description: "animated-template",
+    description: "Using CSS to make an existing template my own.",
   },
   {
-    name: "bookmark-application",
+    name: "Bookmark Application",
     location: "bookmark-application",
-    description: "bookmark-application",
+    description: "Storing bookmarks in local storage using Javascript.",
   },
   {
-    name: "custom-countdown",
+    name: "Custom Countdown",
     location: "custom-countdown",
-    description: "custom-countdown",
+    description:
+      "Working with date objects in Javascripts to create a countdown",
   },
   {
-    name: "infinity-scroll",
+    name: "Infinity Scroll",
     location: "infinity-scroll",
-    description: "infinity-scroll",
+    description:
+      "Loading pictures whilst scrolling gives a infinite scroll effect.",
   },
   {
-    name: "joke-teller",
+    name: "Joke Teller",
     location: "joke-teller",
-    description: "joke-teller",
+    description:
+      "Fetching from a joke API and using a text-to-speech API to output the jokes.",
   },
   {
-    name: "light-dark-mode",
+    name: "Light-Dark Mode",
     location: "light-dark-mode",
-    description: "light-dark-mode",
+    description:
+      "CSS themes switch from light to dark mode and back with Javascript.",
   },
   {
-    name: "music-player",
+    name: "Music Player",
     location: "music-player",
-    description: "music-player",
+    description: "A musicplayer built with the audio element and Javascript.",
   },
   {
-    name: "picture-in-picture",
+    name: "Picture in Picture",
     location: "picture-in-picture",
-    description: "picture-in-picture",
+    description: "Experimenting with the picture in picture API.",
   },
   {
-    name: "quote-generator",
+    name: "Quote Generator",
     location: "quote-generator",
-    description: "quote-generator",
+    description: "Generate a quote and post it to Twitter.",
   },
 ];
 
