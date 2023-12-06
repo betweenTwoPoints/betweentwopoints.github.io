@@ -88,6 +88,15 @@ function renderProjects() {
     card.append(link, descriptionContainer);
     projectContainer.appendChild(card);
   });
+
+  // Push last row items to the left using empty elements
+  if (projects.length % 4) {
+    for (let i = 0; i < projects.length % 4; i++) {
+      const emptyElement = document.createElement("i");
+      emptyElement.setAttribute("aria-hidden", "true");
+      projectContainer.appendChild(emptyElement);
+    }
+  }
 }
 
 renderProjects();
