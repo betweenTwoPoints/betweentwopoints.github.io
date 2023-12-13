@@ -83,10 +83,10 @@ function renderProjects() {
     descriptionText.textContent = description;
 
     // Appending HTML elements
-    link.appendChild(image);
     descriptionContainer.append(descriptionTitle, descriptionText);
-    card.append(link, descriptionContainer);
-    projectContainer.appendChild(card);
+    card.append(image, descriptionContainer);
+    link.appendChild(card);
+    projectContainer.appendChild(link);
   });
 
   // Push last row items to the left using empty elements
