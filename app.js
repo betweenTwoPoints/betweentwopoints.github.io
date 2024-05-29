@@ -53,6 +53,11 @@ const projects = [
     location: "quote-generator",
     description: "Generate a quote and post it to Twitter.",
   },
+  {
+    name: "Spock Paper Scissor",
+    location: "rock-paper-scissor",
+    description: "Play the 'rock paper scissor lizard spock game'.",
+  },
 ];
 
 const projectContainer = document.querySelector("section");
